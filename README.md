@@ -21,12 +21,12 @@ Magazine editors requested modifications to the database before performing any q
 * Converted all RatingValue values to integers.  
 
 ## Exploratory Anlaysis (NoSQL_analysis_starter.ipynb)
-Note:  
+### Note:  
 * RatingValue referes to the overall rating decided by the Food Authority and ranges from 1-5. The higher the value, the better the rating.  
     * This field also includes non-numeric values such as 'Pass'. These were coerced to nulls during database setup before converting ratings to integers.  
 * The scores for Hygiene, Structural, and ConfidenceInManagement work in reverse. The higher the value, the worse the establishment is in these areas.  
 
-Questions:
+### Questions:
 * Which establishments have a hygiene score equal to 20?  
     * Number of establishments with a hygiene score of 20: 41  
 * Which establishments in London have a RatingValue greater than or equal to 4?  
